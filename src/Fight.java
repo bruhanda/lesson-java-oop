@@ -38,6 +38,7 @@ public class Fight {
 
                 one.setHealth(one.getHealth()+demage);
                 if(one.getHealth()<=0){
+                    System.out.println("У робота "+one.getName()+" не осталось здоровья!");
                     System.out.println();
                     System.out.println("-------------------------------------");
                     System.out.println("Победил робот "+two.getName());
@@ -52,6 +53,7 @@ public class Fight {
                 System.out.println("Робот "+one.getName()+ ": "+kicks[kick][0]);
                 two.setHealth(two.getHealth()+demage);
                 if(two.getHealth()<=0){
+                    System.out.println("У робота "+two.getName()+" не осталось здоровья!");
                     System.out.println();
                     System.out.println("-------------------------------------");
                     System.out.println("Победил робот "+one.getName());
